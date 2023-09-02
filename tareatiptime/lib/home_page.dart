@@ -160,6 +160,7 @@ class _HomePageState extends State<HomePage> {
                           if (round) {
                             result = result.ceilToDouble();
                           }
+                          result = double.parse(result.toStringAsFixed(2));
                         });
                       }
                     },
