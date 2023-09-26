@@ -9,7 +9,7 @@ class RecipeCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return Container(
       child: Padding(
         padding: const EdgeInsets.all(9.0),
         child: ClipRRect(
